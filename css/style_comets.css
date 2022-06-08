@@ -1,0 +1,118 @@
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.centralizar{margin: auto;}
+.bg_principal{background:url('../images/bg_menu.png'); background-size: cover; float:left; width:100%; background-repeat: no-repeat;}
+.box_cadastroRapido{float: left; width: 100%;}
+
+h2{font-weight: 600; color: #FFF;}
+
+.box_cadastroRapido .box_left p{color: #DDD;font-size: 14px;}
+
+.twoboxes, .list-3{width: 100%; float: left;}
+.list-3 li{float: left; list-style-type: none; text-align: justify;}
+
+
+
+#contato{width: 100%; float: left; background-color: #292929;}
+.list_opcoesOrcamento{margin: auto; width: 515px;}
+.list_opcoesOrcamento li {list-style-type:none; float: left; margin: 0 5px;}
+
+#form_site, #form_app, #form_mkt{width: 100%; float: left; display: none;}
+
+#box_parceiros{background-color: #FFF;}
+
+footer{float: left; width: 100%;}
+
+/*Smartphone*/
+@media only screen and (max-width: 649px) and (min-width: 0){
+
+	.centralizar{width: 100%; padding: 0 10px;}
+
+	.box_cadastroRapido{margin-bottom: 30px;}
+
+	.list-3 li{padding: 0 10px;}
+	.list_oquefazemos{margin-bottom: 30px;}
+	.descricao_parceiros{padding: 30px 0;}
+
+	h1{padding: 0 30px;}
+	.text_destaque{padding: 50px 0;}
+	#contato{padding: 40px 0;}
+
+	footer{padding: 10px 0 0 0;}
+
+}
+
+/*Smartphone e Tablet */
+@media only screen and (max-width: 1067px) and (min-width: 0){
+
+	.list-3 li{width: 100%;}
+	.list_opcoesOrcamento{width: 100%;}
+	.list_opcoesOrcamento li{width: 100%;}
+
+	#menu{
+		background-color: #000;
+	    display: block;
+	    left: 0;
+	    position: fixed;
+	    top: 40px;
+	    width: 250px;
+	}
+
+	#menu{display: none;}
+	#menu li{width: 100%; border-bottom: 1px solid #DDD;}
+
+	.menu_mobile{width: 100%; position: fixed; background-color: #000; height: 40px; display: block; top:0; left: 0;}
+	.menu_mobile ul{width: 35px; float: left; display: block; padding: 11px 0 0 10px; cursor: pointer;}
+	.menu_mobile ul li{width: 100%; float: left; margin-bottom: 5px; height: 3px; background-color: #FFF; display: block;}
+
+}
+
+/* Tablet */
+@media only screen and (max-width: 1067px) and (min-width: 650px){
+
+	.centralizar{width: 650px; padding:0 15px;}	
+
+	.box_cadastroRapido{margin-bottom: 50px;}
+
+	.list-3 li{padding: 0 10px;}
+	.list_oquefazemos{margin-bottom: 60px;}
+	.descricao_parceiros{padding: 60px 0;}
+
+	h1{padding: 0 50px;}
+	.text_destaque{padding: 120px 0;}
+	#contato{padding: 75px 0;}
+
+	footer{padding: 15px 0 0 0;}
+
+}
+
+/*PC*/
+@media only screen and (min-width: 1068px){
+
+	.centralizar{width: 1068px;}
+
+	.box_cadastroRapido{margin-bottom: 100px; margin-top: 275px;}
+	.box_left{width: 50%; padding-right: 20px; float: left;}
+	.box_right{width: 50%; padding-left: 20px; float: right;}
+
+	.twoboxes{width: 50%;}
+	.twoboxes:nth-child(odd) {padding-right: 15px;}
+	.twoboxes:nth-child(even) {padding-left: 15px;}
+	.list-3 li{width: 33.3%; padding: 0 15px;}
+	.list_oquefazemos{margin-bottom: 100px;}
+	.descricao_parceiros{padding: 80px 0 80px 0;}
+
+	h1 {
+		margin-left: 100px;
+		margin-right: 100px;
+	}
+	.text_destaque{padding: 240px 0;}
+	#contato{padding: 100px 0;}
+	.menu_mobile{display: none;}
+
+}

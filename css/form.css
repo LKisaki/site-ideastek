@@ -1,0 +1,81 @@
+.h2_form{
+	color: aliceblue;
+	
+	font-size: ;
+	font-family: ;
+}
+
+.p_form{
+	color: white;	
+}
+
+fieldset {
+	padding: 0;
+	margin: 0;
+
+/*border-style: solid;*/
+/*border-color: red;*/
+}
+
+#green{
+	background: rgba(19,123,80, .3);
+}
+
+.table_border {
+	background: rgba(200, 200, 200, .8);
+	width: auto;
+	margin: 5px;
+	border-width: medium;
+	border-radius: 10px;
+	float:left;
+	
+	/*border-style: solid;*/
+	/*border-color: green;*/
+}
+
+.thead_title label{
+	text-align: justify;
+}
+
+.table_border_area {
+	border-width: medium;
+	border-radius: 10px;
+	margin: 5px;
+	display: flex;
+	
+	/*border-style: solid;*/
+	/*border-color: blue;*/
+	
+}
+
+textarea {
+	width: 25em;
+	
+}
+
+.form_input {
+	
+   background: rgba(255, 255, 255, 0);
+	border-color: rgba(163, 207, 98, .3) !important;
+	border-style: none none solid !important;
+   border-width: medium medium 1px !important;
+	color: aliceblue;
+	 
+   display: block;
+   padding: 6px;
+   width: 100%;
+	margin: 0;
+	box-sizing: border-box;
+/*text-align: center;*/
+}
+
+#cadrapido th input {
+	width: 75% !important;
+	margin: auto;
+}
+
+#main_slider h2 h1{
+	text-align: center;
+	
+}
+

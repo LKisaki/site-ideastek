@@ -1,0 +1,82 @@
+/* Read More Buttons
+----------------------------------------------------------------------------------------------------*/
+/* General button style (reset) */
+.mask .readmore{
+float: none ;
+margin:0px auto;
+}
+.promobox .readmore-1a:hover,
+.promobox .readmore-1a:active,
+.porfolio_items .readmore-1a:hover,
+.porfolio_items .readmore-1a:active
+ {
+background-color:#fff;
+color:#418239;
+border: 3px solid #a3cf62;
+}
+.promobox .readmore, .porfolio_items .readmore  {
+color:#fff;
+border-radius:3px;
+border: 3px solid #FFFFFF;
+}
+.rolling_text .readmore{
+	margin-left:45% auto;
+
+} 
+.readmore, #contact-form p #submit {
+  cursor: pointer;
+    letter-spacing: 1px;
+    line-height: 21px;
+    outline: medium none;
+    padding: 5px 15px;
+    position: relative;
+	border: 3px solid #d4e05a;
+    transition: all 0.3s ease 0s;
+	font-size:13px;
+	border-radius: 3px 
+}
+.readmore:after, #contact-form p #submit:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+/* Button 1 */
+.readmore-1 {
+	
+	color: #418239;
+	text-decoration:none;
+	display: table;
+    margin-top: 10px;
+}
+.readmore-2 {
+	background: rgba(0,0,0, 0);
+	color: #FFF;
+	text-decoration:none;
+	display: table;
+    margin: 25px auto;
+	
+	
+}
+/* Button 1a */
+.readmore-1a:hover,
+a.readmore:hover,
+a.readmore:active,
+.readmore-1a:active,
+#contact-form p #submit:hover
+ {
+	color: #f9f9f9;
+	background-color: #f9f9f9;
+	text-decoration:none;
+	border: 3px solid #0b1609;
+}
+.Portfolio_gallery .readmore{
+	
+	border: 3px solid #f9f9f9;
+}
+.services .readmore{
+	display:table;
+	color: #fff;
+}
